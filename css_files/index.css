@@ -3,22 +3,44 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
+
 .navbar{
-	background-color: #000;
-	border: 0px;
-	font-size: 19px;
+    border-radius: 0px;
+    background-image:  linear-gradient(to top, #000000 0%, #000000 100%);
+    border: 0px;
+	font-size: 19px;   
 }
+
+.navbar-brand{
+    background-color: #ff471a;
+    color: #0000;
+}
+
+.navbar-toggler{
+    width: 45px;
+    height: 35px;
+}
+
+
 .nav li:hover{
 	background-color: #ff471a;
 }
+
+.glyphicon{
+	font-weight: bold;
+	font-size: 100px;
+	letter-spacing: 5px;
+	color: #ff471a;
+}
+
 h1{
 	text-align: center;
 	font-weight: bold;
-	margin-top: 220px;
+	margin-top: 20px;
 	font-size: 78px;
 	color: #e6e6e6;
 }
-span{
+#my_name{
 	font-weight: bold;
 	font-size: 100px;
 	letter-spacing: 5px;
@@ -45,6 +67,10 @@ img{
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
+}
+
+.social {
+    width: 50%;
 }
 .slide{
 	border-radius: 0px;
